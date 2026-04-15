@@ -2,34 +2,34 @@ body {
             background-color: #222;
             color: #ee6;
         }
-        h1 {
+h1 {
         text-align: center;
         }
-        p {
+p {
         font-family:sans-serif;
         }
-        h1,h2,h3 {
+h1,h2,h3 {
         color: #eee;
         }
-        strong {
+strong {
         border-bottom: 1px solid white;
         }
-        .the-force {
+.the-force {
         background-color: #444;
         font-weight: bold;    
         }
-        .light-side {
+.light-side {
         color: #66f;
         }
-        .dark-side {
+.dark-side {
         color: #f33;
         }
-        #og-trilogy {
+#og-trilogy {
         list-style-type: circle
         }
-        .moviles-list:nth-of-type(2) {
+.moviles-list:nth-of-type(2) {
         padding-left: 30px;
         }
-        .moviles-list:nth-of-type(3)li:last-child {
+.moviles-list:nth-of-type(3)li:last-child {
         margin-top: 10px;
         }
