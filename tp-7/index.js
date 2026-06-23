@@ -1,1 +1,67 @@
+function suma(num1, num2) {
+    return num1 + num2;
+}
 
+console.log("suma(2,3): ", suma(2,3))
+
+    function elevarAlCubo(num){
+
+    return num ** 3;
+ }
+console.log("elevarAlCubo(3): ", elevarAlCubo(3))
+
+function restoDivisionEntera(dividendo, divisor){
+    return dividendo % divisor;
+}
+console.log("restoDivisionEntera(3,2): ", restoDivisionEntera(3,2))
+
+function numeroPi(){
+    return math.PI;
+
+}
+console.log("numeroPi(): ", numeroPi())
+
+function numeroRandom() {
+    return Math.random();
+}
+console.log("numeroRandom(): ", numeroRandom())
+
+function mejorNumeroRandom(min, max) {
+    return Math.floor(numeroRandom() * (max - min + 1)) + min;
+}
+console.log("mejorNumeroRandom(1,6): ", mejorNumeroRandom(1,6))
+
+function transformarMayuscula(palabra) {
+    return palabra.toUpperCase();
+}
+console.log("transformarMayuscula(\"Plataformas Móviles\"): ", transformarMayuscula("Plataformas Móviles"))
+
+function primeraLetra(palabra) {
+    return palabra.charAt(0);
+}
+console.log("primeraLetra(\"Plataformas\"): ", primeraLetra("Plataformas"))
+
+function ultimaLetra(palabra) {
+    return palabra.charAt(palabra.length - 1);
+}
+console.log("ultimaLetra(\"Plataformas\"): ", ultimaLetra("Plataformas"))
+
+function primeraLetraMayuscula(palabra) {
+    return palabra.charAt(0).toUpperCase() + palabra .slice(1);
+}
+console.log("primeraLetraMayuscula(\"plataformas\"): ", primeraLetraMayuscula("plataformas"))
+
+function palabraAListaDeLetras(palabra) {
+    return palabra.split('');
+}
+console.log("palabraAListaDeLetras(\"hola\"): ", palabraAListaDeLetras("hola"))
+
+function listadoDeLetrasAPalabra(lista) {
+    return lista.join('');
+}
+console.log("listadoDeLetrasAPalabra([\"h\", \"o\", \"l\", \"a\"]): ", listadoDeLetrasAPalabra(["h", "o", "l", "a"]))
+
+function palabraInvertida(palabra) {
+    return palabra.split('').reverse().join('');
+}
+console.log("palabraInvertida(\"hola\"): ", pal
