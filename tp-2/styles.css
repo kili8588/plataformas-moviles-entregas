@@ -1,35 +1,59 @@
 body {
-            background-color: #222;
-            color: #ee6;
-        }
+    background-color: #222;
+    color: #ee6;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
 h1 {
-        text-align: center;
-        }
+    text-align: center;
+}
 p {
-        font-family:sans-serif;
-        }
-h1,h2,h3 {
-        color: #eee;
-        }
+    font-family: sans-serif;
+}
+h1, h2, h3 {
+    color: #eee;
+}
 strong {
-        border-bottom: 1px solid white;
-        }
+    border-bottom: 1px solid white;
+}
 .the-force {
-        background-color: #444;
-        font-weight: bold;    
-        }
-.light-side {
-        color: #66f;
-        }
-.dark-side {
-        color: #f33;
-        }
+    background-color: #444;
+    font-weight: bold;
+}
+.the-force.light-side {
+    color: #66f;     
+}
+.the-force.dark-side {
+    color: #f33;       
+}
 #og-trilogy {
-        list-style-type: circle
-        }
-.moviles-list:nth-of-type(2) {
-        padding-left: 30px;
-        }
-.moviles-list:nth-of-type(3)li:last-child {
-        margin-top: 10px;
-        }
+    list-style-type: circle;
+}
+#ep-pre {
+    padding-left: 60px;   
+}
+#episodio_IX {
+    margin-top: 15px;     
+}
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+p:first-of-type::first-line {
+    color: #efe;
+}
+h1:hover {
+    color: #ffeb3b;      
+}
+a:visited {
+    color: #999;
+}
+a:not([href]) {
+    font-style: italic;
+}
+.movies-list li:nth-child(odd) {
+    background-color: #111;
+}
+.movies-list li:nth-child(even) {
+    background-color: #333;
+}
